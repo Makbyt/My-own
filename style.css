@@ -25,8 +25,6 @@ a[href] {
   text-decoration-line: underline;
 }
 
-
-
 figure {
   margin-left: 0;
   margin-right: 0;
@@ -45,6 +43,13 @@ figcaption {
   font-style: italic;
   text-align: center;
   background-color: rgb(202, 224, 248);
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 }
 
 .pagination a {
