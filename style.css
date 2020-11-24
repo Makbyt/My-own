@@ -1,5 +1,6 @@
       html{
         min-height: 100%;
+        text-align: center;
       }
 
       body{
@@ -8,6 +9,7 @@
         padding: 100px;
         background-size: cover;
         background-repeat: no-repeat;
+        text-align: left;
       }
 
       {
@@ -19,7 +21,8 @@
         width: 20%;
         height: 500px;
         padding: 15px;
-        vertical-align: top; 
+        vertical-align: top;
+        text-align: center;
       }
 
       article .poster{
