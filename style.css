@@ -38,6 +38,10 @@
         animation: cs 1s;
       }
 
+      .poster: hover{
+        animation-play-state: running;
+      }
+
       @keyframes cs{
         0%{
           transform: scale(1);
