@@ -17,6 +17,10 @@
         text-align: left; 
       }
 
+      body .test:hover{
+        transition color: white;
+      }
+
       {
         box-sizing: border-box;
       }
