@@ -2,9 +2,20 @@
         min-height: 100%;
       }
 
-      body{
+      body .background{
       background: rgb(0,0,0);
       background: linear-gradient(90deg, rgba(0,0,0,0.738532913165266) 0%, rgba(0,20,255,1) 62%, rgba(181,0,255,1) 100%);
+      }
+
+      body .center{
+      padding: 10px 0;
+      text-align: center;
+      }
+
+      body .text{
+        padding: 10px 0;
+        text-align: center;
+      }
 
       {
         box-sizing: border-box;
@@ -34,3 +45,41 @@
         background-color: #ffffff;
         height: 50%;
       }
+
+      footer .footer{
+      padding: 10px 0;
+      text-align: left;
+      }
+
+      /*появлення з сірого кольору при наводі на данний елемент
+      .test{
+        background: rgba(120, 120, 120, 1) none repeat scroll 0 0; 
+        display: inline-block;
+        height: 300px;
+        margin: 100px;
+        transition: background 1s ease 0s;
+        width: 400px;
+      }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
