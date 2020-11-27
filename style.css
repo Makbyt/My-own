@@ -38,7 +38,7 @@
         animation: cs 1s;
       }
 
-      .poster: hover{
+      article .poster: hover{
         animation-play-state: running;
       }
 
