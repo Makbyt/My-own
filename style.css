@@ -17,10 +17,6 @@
         text-align: left; 
       }
 
-      body .test:hover{
-        transition color: white;
-      }
-
       {
         box-sizing: border-box;
       }
@@ -39,6 +35,19 @@
         height: 50%;
         overflow: hidden;
         background-color: #eee;
+        animation: cs 1s;
+      }
+
+      @keyframes cs{
+        0%{
+          transform: scale(1);
+        }
+        50%{
+          transform: scale(1.1);
+        }
+        100%{
+          transform: scale(1);
+        }
       }
 
       article .poster img{
