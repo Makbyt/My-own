@@ -3,8 +3,8 @@
       }
 
       body .background{
-      background: rgb(0,0,0);
-      background: linear-gradient(90deg, rgba(0,0,0,0.738532913165266) 0%, rgba(0,20,255,1) 62%, rgba(181,0,255,1) 100%);
+      background: rgb(2,0,36);
+      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,153,127,1) 35%, rgba(0,212,255,1) 100%);
       }
 
       body .center{
@@ -14,7 +14,7 @@
 
       body .text{
         padding: 10px 0;
-        text-align: center;
+        text-align: left;
       }
 
       {
