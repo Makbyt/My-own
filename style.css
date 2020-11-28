@@ -38,7 +38,7 @@
         animation: cs 1s;
       }
 
-      .poster: hover{
+      img: hover{
         animation-play-state: running;
       }
 
@@ -78,9 +78,6 @@
         width: 400px;
       }*/
 
-      .test:hover{
-        transition color: white;
-      }
 
 
 
