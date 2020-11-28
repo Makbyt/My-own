@@ -35,10 +35,10 @@
         height: 50%;
         overflow: hidden;
         background-color: #eee;
-        animation: cs 1s;
+        animation: cs 1s infinite paused;
       }
 
-      img: hover{
+      .poster:hover{
         animation-play-state: running;
       }
 
