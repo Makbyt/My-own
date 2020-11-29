@@ -3,8 +3,8 @@
       }
 
       body{
-        background: rgb(237,0,255);
-        background: linear-gradient(0deg, rgba(237,0,255,0.9878326330532213) 0%, rgba(0,247,255,1) 100%);
+        background: rgb(109,0,255);
+        background: radial-gradient(circle, rgba(109,0,255,0.9878326330532213) 0%, rgba(0,0,0,1) 100%);
       }
 
       body .center{
