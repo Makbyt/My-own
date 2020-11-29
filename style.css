@@ -10,11 +10,12 @@
       body .center{
       padding: 10px 0;
       text-align: center;
-      }
+      }      
 
-      body .text{
+      footer .text{
         padding: 10px 0;
         text-align: left; 
+        animation: ks 1s;
       }
 
       {
@@ -42,6 +43,7 @@
         animation-play-state: running;
       }
 
+      /*poster keyframe*/
       @keyframes cs{
         0%{
           transform: scale(1);
@@ -51,6 +53,16 @@
         }
         100%{
           transform: scale(1);
+        }
+      }
+
+      /*text keyframe*/
+      @keyframes ks{
+        0%{
+          transform: color(blue);
+        }
+        100%{
+          transform: color(green);
         }
       }
 
