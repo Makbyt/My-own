@@ -15,7 +15,11 @@
       footer .text{
         padding: 10px 0;
         text-align: left; 
-        animation: ks 2s;
+        animation: ks 2s infinite paused;
+      }
+
+      .text:hover{
+        animation-play-state: running;
       }
 
       {
@@ -36,7 +40,7 @@
         height: 50%;
         overflow: hidden;
         background-color: #eee;
-        animation: cs 1s ;
+        animation: cs 1s infinite paused;
       }
 
       .poster:hover{
@@ -60,6 +64,9 @@
       @keyframes ks{
         0%{
           transform: color(blue);
+        }
+        50%{
+          transform: color(black);
         }
         100%{
           transform: color(green);
