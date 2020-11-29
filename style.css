@@ -10,15 +10,15 @@
       body .center{
       padding: 10px 0;
       text-align: center;
+      animation: ks 2s infinite paused;
       }      
 
       footer .text{
         padding: 20px 0;
         text-align: left; 
-        animation: ks 2s infinite paused;
       }
 
-      .text:hover{
+      .center:hover{
         animation-play-state: running;
       }
 
