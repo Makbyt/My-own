@@ -40,12 +40,12 @@
         height: 50%;
         overflow: hidden;
         background-color: #eee;
-        animation: cs 1s infinite paused;
+        animation: cs 1s infinite ;
       }
-
+      /*
       .poster:hover{
         animation-play-state: running;
-      }
+      }*/
 
       /*poster keyframe*/
       @keyframes cs{
