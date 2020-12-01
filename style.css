@@ -82,6 +82,13 @@
         height: 50%;
       }
 
+      body .bigwall{
+        background: #FFD700 none repeat scale;
+        height: 300px;
+        width: 200px;
+        margin: 20px 0px 30px;
+      }
+
       footer .footer{
       padding: 10px 0;
       text-align: left;
