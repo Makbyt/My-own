@@ -5,10 +5,9 @@ html {
 }
 
 .box {
-	margin-top: 150px;
-	margin-right: 200px;
-	margin-left: 200px;
-	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right: 150px;
+	margin-left: 150px;
 	text-align: center;
 }
 
@@ -16,10 +15,12 @@ html {
     display: none;
 }
 
+a{text-decoration: none;}
+
 .portfolio ul,
 .portfolio li {
     margin: 0;
-    padding: 20px;
+    padding: 30px;
     list-style-type: none;
 } 
 .portfolio li {
@@ -35,13 +36,9 @@ html {
     display: block;
 }
 
-.down{
-	margin-top: -50px;
-}
-
 .descr {
     position: absolute;
-    left: 20px;
+    left: 30px;
     width: 350px;
     height: 120px;
     background-color: rgba(0,0,0,.5);
